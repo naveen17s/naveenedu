@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+    Demo_forms-1 | Bankloan application form
+</title>
+<!---<div style="width: 100%; background-image: url(E:\visual_coderr\New_assignments\bankpic\atmmachine.jpg);">
+</div>--->
+</head>
+<body style="background-color: rgb(56, 87, 87);">
+<h2 align="center" style="font-size: 25px;  color: moccasin;"><br> Loan Applications From</h2>
+    <table border="0" width="100%" >
+        <!-----1st table = 1st row-->
+     <tr height="150">
+         <td colspan="3">
+            <div align="center" style="background-color: rgb(56, 87, 87);">
+            <img src="E:\visual_coderr\New_assignments\bankpic\axisbankicon.png" width="400"></div>   
+         </td>
+     </tr>
+    </table>
+
+     <table border="0" width="100%" bgcolor="gainsboro">
+       <!-----1st table = 2st row-->
+     <tr height="50">
+         <div >
+         <td >
+             <form > 
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;Select Title:
+                  </p>&nbsp;&nbsp;&nbsp;&nbsp;                     
+                  <input type="radio" id="tl-01" name="Title" value="Tl_Mr" >Mr &nbsp;
+                  <input type="radio" id="tl-02" name="Title" value="Tl_Mrs">Mrs &nbsp;
+                  <input type="radio" id="tl-03" name="Title" value="Tl_Ms">Ms &nbsp;&nbsp;
+                  <input type="radio" id="tl-04" name="Title" value="Tl-04" checked>Other &nbsp;&nbsp;
+                  <br>&nbsp;&nbsp;
+             </form>
+         </td>
+        </div>
+
+         <div>
+         <td>
+            <from ><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account Holder Name :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="ac/name_1.1" >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bank Branch :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="bbrch_1.1"  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+            </from>
+         </td>
+         </div>
+
+        <div>
+        <td >
+            <from ><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="date-1.1" type="date" name="date_1.1">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+            </from>
+        </td>
+        </div>
+     </tr>
+
+     <!-----1st table = 3st row-->
+     <tr height="50">
+        <div>
+        <td >
+        <from >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account Number :
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="ac/no=1.1" type="number" name="ac/no_1.1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+        </from>
+        </td>
+        </div>
+ 
+        <div>
+            <td>
+            <from>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    First Name :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="text_1.3" >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Last Name :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="text_1.4"  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+            </from><br><br>
+            </td>
+        </div>
+
+        <div >
+            <td>
+            <from >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date Of Birth :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="DOB-1.2" type="date" name="dateofbirth_1.2" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+            </from>
+            </td>
+        </div>
+      </tr>
+
+    <!-----1st table = 4st row-->
+    <tr height="50">
+        <div>
+            <td colspan="3" align="center">
+                <from><hr><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Aadhar Number :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="aadharnumber_1.2" >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                   <!--- <input type="submit" name="submit" value=" Verify to Mobile ">-->         
+            </from><br><br>
+          </td>
+        </div>     
+    </tr>
+
+    <!-----1st table = 5st row-->
+    <tr height="50">
+        <div>
+            <td colspan="3" align="center">
+                <from>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Email ID :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" id="e@mail-1.1"  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                 <!----<input type="submit" name="submit" value=" Verify to Email ">---->         
+                </from><br><br>
+            </td>
+        </div>     
+    </tr>
+
+    <!-----1st table = 6st row-->
+    <tr height="50">
+        <div>
+            <td colspan="3" align="center">
+                <from>
+                    &nbsp;
+                    Bank Mobile Number :
+                    <input id="mb/no-1.1" type="number" name="bkmb/no_1.1" required>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           
+                    <!-----<input type="submit" name="submit" value=" Verify to Mobile ">------->
+                </from><br><br><hr>
+            </td>
+        </div>     
+    </tr>
+
+    <!-----1st table = 7st row-->
+    <tr height="50">
+        <div>
+            <td align="center">
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Persnol Details :</h3>
+            <from>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Address :<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="address" ><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Pincode :<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" name="pincode" ><br><br><hr>
+            </from>
+        </td>
+    </div>
+
+    <div>
+        <td align="center">
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Company Details :</h3>
+            <from>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Officialy Address :<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="address" ><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Pincode :<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" name="pincode" ><br><br><hr>
+            </from>
+        </td>
+    </div>    
+
+     <div>
+       <td align="center">
+         <form > 
+               <h3>&nbsp;&nbsp;&nbsp;&nbsp;Year of Experience :</h3>&nbsp;&nbsp;                     
+               &nbsp;<input type="radio" id="yr-01" name="yr/exp" value="yr-1.1" > &nbsp;&nbsp;&nbsp;&nbsp;0 - 1 Years <br><br>
+               &nbsp;&nbsp;&nbsp;<input type="radio" id="yr-02" name="yr/exp" value="yr-1.2"> &nbsp;&nbsp;&nbsp;&nbsp;1 - 3 Years <br><br>
+               &nbsp;&nbsp;&nbsp;<input type="radio" id="yr-03" name="yr/exp" value="yr-1.3"> &nbsp;&nbsp;&nbsp;&nbsp;3 - 5 Years <br><br>
+               <input type="radio" id="yr-04" name="yr/exp" value="yr-1.4" checked> &nbsp;&nbsp;&nbsp;&nbsp;5+ years<br><br><hr>
+         </form>
+       </td>
+     </div>
+    </tr>
+
+    <!-----1st table = 8st row-->
+        
+    <tr height="100">
+        <div>
+             <td align="center"><br><br>
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    Income Details :</h3><br>
+                    <from>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Gross Monthly Income :<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" name="income/mon" ><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Down payment Amount :<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" name="amount" ><br><br>
+                </from>
+             </td>
+        </div>
+
+        <div>
+            <td align="center"><br><br><br>
+               <h3> Attach Your Proof :</h3><br>
+               <from>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <b>Aadhar id proof - 1 :</b>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <input type="file" name="proof-1" ><br><br><br><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <b>Company id Proof - 2 :</b>
+                   &nbsp;&nbsp;&nbsp;
+                   <input type="file" name="proof-2" ><br><br><br><br>
+               </from>
+            </td>
+       </div>
+
+       <div>
+        <td  align="center">
+           <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add your passport size photo :</h3>
+           <from>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="photo:_jpg,jpeg" ><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="phto-01" name="photo" value="jpeg" > &nbsp;&nbsp;&nbsp;&nbsp;JPEG <br><br>
+            &nbsp;&nbsp;&nbsp;<input type="radio" id="phto-02" name="photo" value="jpg"> &nbsp;&nbsp;&nbsp;&nbsp;JPG <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="phto-03" name="photo" value="png"> &nbsp;&nbsp;&nbsp;&nbsp;PNG <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="phto-04" name="photo" value="others" checked> &nbsp;&nbsp;&nbsp;&nbsp;Other <br>
+           </from>
+        </td>
+   </div>
+    </tr>
+     </table>
+
+     <table border="0" width="100%">
+    <!-----1st table = 9st row-->
+    <tr height="100">
+            <div>
+                <td colspan="3" align="center" style="background-color: rgb(56, 87, 87);">
+                <from ><br>
+                    <p><input type="checkbox" id="trm_con-1.1" name="trm-1.1" value="cond-1.1" required> &nbsp;&nbsp; 
+                        I authorize prospective Credit Grantors/Lending/Leasing Companies to obtain personal and credit information about me from my employer and credit bureau, or credit reporting agency, any person who has or may have any financial dealing with me, or from any references I have provided.
+                    This information, as well as that provided by me in the application, will be referred to in connection with this lease and any other relationships we may establish from time to time.
+                     Any personal and credit information obtained may be disclosed from time to time to other lenders, credit bureaus or other credit reporting agencies.
+                    </p><br>
+                    <p><input type="checkbox" id="trm_con-1.2" name="trm-1.2" value="cond-1.2" required> &nbsp;&nbsp; 
+                        I hereby agree that the information given is true, accurate and complete as of the date of this application submission.
+                    </p><br>
+                    <input type="submit" name="submit" value="      Submit      ">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="Reset"  name="cancel" value="      Cancel      ">
+                    <br><br><br>
+                </from>
+                </td>
+            </div>
+    </tr>
+</table>
+</body>
+</html>
+
+
